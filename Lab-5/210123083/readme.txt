@@ -1,0 +1,1 @@
+Please 1st run the Q1.c file and then the Q2.c file else it will give a segmentation fault because we are creating a shared memory in Q1 and writing into it, after which we are reading the same memory in Q2 file.
